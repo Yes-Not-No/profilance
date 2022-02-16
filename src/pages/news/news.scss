@@ -1,0 +1,37 @@
+.new-content__news-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+
+  @media (max-width: 830px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.news-add {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 500px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+
+  label {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+
+  input {
+  }
+}
+
+.news-add-shown {
+  display: flex;
+}

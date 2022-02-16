@@ -1,0 +1,23 @@
+.news-item {
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #e0e0e050;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  box-shadow: 5px 5px 10px #e4e4e450;
+}
+
+.news-item__title {
+  font-size: 20px;
+}
+
+.news-item__description {
+  font-size: 12px;
+}
+
+.news-item__date {
+  font-size: 12px;
+  font-weight: 600;
+}

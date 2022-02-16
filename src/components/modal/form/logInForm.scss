@@ -1,0 +1,11 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+  }
+}
